@@ -19,7 +19,11 @@ for (let k = 0; k < 5; k++) {
 }
 
 // for in loops
-let person = { name: "John", age: 30, city: "New York" };
+let person = { 
+    name: "John", 
+    age: 30, 
+    city: "New York" 
+};
 for (let key in person) {
   console.log(key + ": " + person[key]);
 }
